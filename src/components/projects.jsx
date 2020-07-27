@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 
+const fontWhite = {
+	color: 'white',
+}
+
 export default class Projects extends Component {
   render() {
     return (
@@ -15,19 +19,19 @@ export default class Projects extends Component {
 
 						{/* PROJETOS */}
 						<div className="row">
-						<div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+						<div className="col-md-4 animate-box"  data-animate-effect="fadeInRight">
 								<div className="project" style={{backgroundImage: 'url(images/nlw-01.jpg)'}}>
 									<div className="desc">
 										<div className="con">
-											<span><b>NLW 01 - Ecoleta</b></span>									
-											<span>Website, Mobile Application</span>
+											<span style={fontWhite}><b>NLW 01 - Ecoleta</b></span>									
+											<span style={fontWhite}>Website, Mobile Application</span>
 											<br/>
-											<span>Projeto desenvolvido durante a semana Next Level Week, organizada e planejada pela 
+											<span style={fontWhite}>Projeto desenvolvido durante a semana Next Level Week, organizada e planejada pela 
 												RocketSeat. A ideia do projeto é um marketplace do qual pontos de coleta de resíduos, se cadastram para que
 												a população possa descartar seus objetos como: Pilhas, baterias, reciclagem, e outros materias de forma eficiente.
 										
-											<ul>
-												<li>
+											<ul style={fontWhite}>
+												<li >
 													Backend: Node.js (Express), MongoDB(NoSQL).
 												</li>
 												<li>
@@ -53,15 +57,15 @@ export default class Projects extends Component {
 							<div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
 								<div className="project" style={{backgroundImage: 'url(images/omistack-11.png)'}}>
 									<div className="desc">
-										<div className="con">
-											<span><b>Oministack 11 - Be The Hero</b></span>
-											<span>Website, Mobile Application</span>
+										<div className="con" >
+											<span style={fontWhite}><b>Oministack 11 - Be The Hero</b></span>
+											<span style={fontWhite}>Website, Mobile Application</span>
 											<br/>
-											<span>Projeto desenvolvido durante a semana Next Level Week, organizada e planejada pela 
+											<span style={fontWhite}>Projeto desenvolvido durante a semana Next Level Week, organizada e planejada pela 
 												RocketSeat. O projeto é desenvolvido com o intuito de que Ongs cadastrem suas necessidades de
 												doações, para que o público possa doar e ajudar quem precisa. 
 
-											<ul>
+											<ul style={fontWhite}>
 												<li>
 													Backend: Node.js (Express), SQLite(SQL).
 												</li>
@@ -91,13 +95,13 @@ export default class Projects extends Component {
 								<div className="project" style={{backgroundImage: 'url(images/sist-car.png)'}}>
 									<div className="desc">
 										<div className="con">
-											<span><b>E-Concessionário</b></span>
-											<span>Website</span>
+											<span style={fontWhite}><b>E-Concessionário</b></span>
+											<span style={fontWhite}>Website</span>
 											<br/>
-											<span>
+											<span style={fontWhite}>
 												Sistema de estoque para utilização de concessionárias possuindo: Cadastro,
 												edição, busca e filtros de todos os veículos disponiveis ou não em seu sistema. 
-												<ul>
+												<ul style={fontWhite}>
 													<li>
 														Backend: Node.js (Express), MySQL(SQL).
 													</li>
