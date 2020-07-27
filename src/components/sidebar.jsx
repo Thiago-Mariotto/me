@@ -36,14 +36,18 @@ export default class Sidebar extends Component {
             </nav>
             <br/>
             <div className="colorlib-footer">
-              {/* <p><small>
-                  Made with <i className="icon-heart" aria-hidden="true" /> and <i className="icon-beer" aria-hidden="true"></i><br></br>
-                  Thanks <a href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a> for inspiration 
-              </small></p> */}
+            
               <p><small>
               “Talvez não tenha conseguido fazer o melhor, mas lutei para que o melhor fosse feito. Não sou o que deveria ser, mas Graças a Deus, não sou o que era antes”.
                   (Marthin Luther King)
               </small></p>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+              <small><p>
+               Créditos <a href="https://github.com/dbarochiya/" target="_blank" rel="noopener noreferrer">Dhruv</a> pelo Design
+              </p></small>
             </div>
           </aside>
         </div>
