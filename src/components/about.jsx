@@ -21,13 +21,13 @@ export default class About extends Component {
                     <p>Brasileiro, 24 anos, nascido e criado na cidade da grávida (Taubaté-SP).<br/>
                         Formado em Ciêncida da Computação (2016-2020).<br/><br/>
 
-                            Minha história com tecnologia se inicia na infância com jogos eletrônicos de console, até ganhar meu primeiro computador.
-                        Desde então o aprendizado foi acontecendo, fuçando em tudo quanto era lugar da máquina. Foi então quando decidi, meu futuro na área de TI.
+                        Minha história com tecnologia se inicia na infância com jogos eletrônicos de console, até ganhar meu primeiro computador.
+                        Desde então o aprendizado foi fuçando em tudo quanto era lugar da máquina. Foi então quando decidi meu futuro na área de TI.
 
-                    <br/>     Quando na faculdade procurei conhecer todas as áreas dentro da tecnologia da informação, 
+                    <br/>Na faculdade procurei conhecer todas as áreas dentro da tecnologia da informação, 
                         desde a parte de infraestura, segurança, análise, gestão de projetos e etc. No final me apaixonei por desenvolvimento Web do qual pretendo trilhar por um longo tempo.
-                    <br/>Iniciei aprendendo backend com PHP, passei por Python (Django), mas me apeguei com Javascript, quando descobri sua facilidade
-                        no backend (Node.js), desde então venho me desenvolvendo também no frontend (React.js) e também no mobile (React Native).</p>
+                    <br/>Iniciei aprendendo backend com PHP, conheci Javascript e descobri sua facilidade
+                        com (Node.js). Desde então venho me desenvolvendo também no frontend (React.js) e no mobile (React Native).</p>
                     <p>Um eterno aprendiz, me desafiando a novas conquistas DIÁRIAMENTE. </p>
                     </div>
                     
@@ -54,7 +54,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Backend</h3>
-                    <p>Desenvolvimento de API REST/RESTful com Node.js/Express. Javascript ES6</p>   
+                    <p>Desenvolvimento de API's REST/RESTful<br/>Node.js/Express. </p>   
                 </div>
                 </div>
             </div>
@@ -65,8 +65,8 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Frontend</h3>
-                    <p>Interface de usuário com React.js 
-                        || JavaScript, HTML e CSS com uma ajudinha de nosso amigo Bootstrap :p</p>
+                    <p>Interfaces de usuários React.js <br/>
+                        JavaScript, HTML e CSS com uma ajudinha do Bootstrap :p</p>
                 </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Games</h3>
-                    <p>Desenvolvimento de jogos: Unity 2D/3D, Unreal Engine 4, Construct 3. 
+                    <p>Unity 2D/3D, Unreal Engine 4<br/>Construct 3. 
                     </p>
                 </div>
                 </div>
