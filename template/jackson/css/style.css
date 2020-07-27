@@ -941,7 +941,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background: #000000;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -989,7 +989,7 @@ body.offcanvas {
         color: #fff; }
     .project .desc span {
       display: block;
-      color: rgba(255, 255, 255, 0.7);
+      color: rgba(255, 255, 255, 1);
       font-size: 13px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -1003,8 +1003,8 @@ body.offcanvas {
         color: #000; }
     @media screen and (max-width: 768px) {
       .project .desc {
-        opacity: 1;
-        background: rgba(0, 0, 0, 0.4); }
+        opacity: 0;
+        background: rgba(0, 0, 0, 1); }
         .project .desc h3 {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
