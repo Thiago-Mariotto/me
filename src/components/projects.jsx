@@ -129,10 +129,10 @@ export default class Projects extends Component {
 								<p><a href="https://docs.google.com/document/d/1UZFLgU1Q7o3WWg5Qz-cdqUqSYDi_EH6tyFb3-1hvmns/edit?usp=sharing" className="btn btn-primary btn-lg btn-load-more">Ver CV Completo </a></p>
 							</div>
 						</div>
-						<div></div>
-						<div></div>
-						<div></div>
-						<div></div>
+						
+						<div className="row text-center">
+							<span>Melhor visualizado no Desktop</span>
+						</div>
 					</div>
 				</section>
       </div>

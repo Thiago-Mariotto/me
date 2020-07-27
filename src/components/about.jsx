@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 
+useEffect(() => {
+    document.title = "Thiago Mariotto"
+ }, []);
+
 export default class About extends Component {
   render() {
     return (
@@ -14,13 +18,16 @@ export default class About extends Component {
                     <span className="heading-meta">Sobre mim</span>
                     <h2 className="colorlib-heading">Quem sou eu?</h2>
                     <div className="col-md-6 text-justify">
-                    <p>Brasileiro, 24 anos, nascido e criado na cidade da grávida (Taubaté-SP).
-                    Formado em Ciêncida da Computação (2016-2020). 
-                        Minha história no TI se inicia na adolescência, onde me apaixono por tecnologia 
-                        através de jogos eletrônicos. Quando na faculdade procurei conhecer todas as áreas possiveis dentro da tecnologia da informação, 
-                        desde a parte de infraestura, segurança, análise, etc. 
-                        No final me apaixonei por desenvolvimento Web.
-                        Iniciei com PHP, passei por python (Django), mas me apaixonei por JavaScript.</p>
+                    <p>Brasileiro, 24 anos, nascido e criado na cidade da grávida (Taubaté-SP).<br/>
+                        Formado em Ciêncida da Computação (2016-2020).<br/><br/>
+
+                            Minha história com tecnologia se inicia na infância com jogos eletrônicos de console, até ganhar meu primeiro computador.
+                        Desde então o aprendizado foi acontecendo, fuçando em tudo quanto era lugar da máquina. Foi então quando decidi, meu futuro na área de TI.
+
+                    <br/>     Quando na faculdade procurei conhecer todas as áreas dentro da tecnologia da informação, 
+                        desde a parte de infraestura, segurança, análise, gestão de projetos e etc. No final me apaixonei por desenvolvimento Web do qual pretendo trilhar por um longo tempo.
+                    <br/>Iniciei aprendendo backend com PHP, passei por Python (Django), mas me apeguei com Javascript, quando descobri sua facilidade
+                        no backend (Node.js), desde então venho me desenvolvendo também no frontend (React.js) e também no mobile (React Native).</p>
                     <p>Um eterno aprendiz, me desafiando a novas conquistas DIÁRIAMENTE. </p>
                     </div>
                     
