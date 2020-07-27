@@ -122,7 +122,7 @@ export default class Projects extends Component {
 						</div>
 						<div className="row">
 							<div className="col-md-12" data-animate-effect="fadeInTop">
-								<p><a href="https://docs.google.com/document/d/e/2PACX-1vQp-2DGH8tPCl3ukpetur2Da6A-Tr4jBrfyhJe4TA3_qq-G0EgRxc7PHrIV-GPC8c6WvFoYuvbsOsqH/pub" className="btn btn-primary btn-lg btn-load-more">Ver CV Completo </a></p>
+								<p><a href="https://docs.google.com/document/d/1UZFLgU1Q7o3WWg5Qz-cdqUqSYDi_EH6tyFb3-1hvmns/edit?usp=sharing" className="btn btn-primary btn-lg btn-load-more">Ver CV Completo </a></p>
 							</div>
 						</div>
 						<div></div>
